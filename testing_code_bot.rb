@@ -26,5 +26,5 @@ testing_status = TestingStatus.new(bot.hash_tag, status)
 next_color = testing_status.next_color
 exit unless next_color
 
-bot.update_status(next_color)
 bot.update_icon_color(next_color)
+bot.update_status(next_color)
