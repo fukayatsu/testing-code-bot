@@ -1,4 +1,4 @@
-#!/usr/bin/evn ruby
+#!/usr/bin/env ruby
 # coding: utf-8
 
 require './lib/testing_code_bot'
@@ -19,11 +19,11 @@ config = YAML.load_file(CONFIG_FILE)
 config['base_path'] = BASE_PATH
 
 bot = TestingCodeBot.new(config)
-p status = bot.last_testing_status
+status = bot.last_testing_status
 exit unless status
 
 testing_status = TestingStatus.new(bot.hash_tag, status)
-p next_color = testing_status.next_color
+next_color = testing_status.next_color
 exit unless next_color
 
 bot.update_status(next_color)
