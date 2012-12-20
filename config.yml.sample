@@ -1,4 +1,5 @@
 twitter:
+  screen_name:        YOUR_NAME
   consumer_key:       YOUR_KEY
   consumer_secret:    YOUR_SECRET
   oauth_token:        YOUR_TOKEN
