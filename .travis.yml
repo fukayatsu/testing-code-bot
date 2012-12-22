@@ -1,0 +1,12 @@
+#bundler_args: --without development --path vendor/bundle
+#script: "bundle exec rake db:drop db:create db:migrate spec"
+script: "bundle exec rake spec"
+rvm:
+  - 1.9.3
+gemfile:
+  - Gemfile
+branches:
+  only:
+    - master
+#env:
+#  - DB=mysql
