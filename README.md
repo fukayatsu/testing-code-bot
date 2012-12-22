@@ -1,3 +1,3 @@
 testing-code-bot
 ================
-![](https://api.travis-ci.org/fukayatsu/testing-code-bot.png)
+[![Build Status](https://travis-ci.org/fukayatsu/testing-code-bot.png?branch=master)](https://travis-ci.org/fukayatsu/testing-code-bot)
